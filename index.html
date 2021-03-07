@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather 🌞</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/86191761a2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css" class="css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="card charta">
+            <div class="card-body">
+    
+    
+        <form>
+            <div class="row">
+                <div class="col-2">
+                    <div class="mb-3 form">
+               
+                <input type="text" placeholder="Enter a city" autocomplete="off" autofocus= "on" id = cityName>
+
+             
+          </div>
+            </div>
+            </div>
+        </form>
+ 
+    
+
+        <div class="row">
+<div class="col-4">
+    <h1 class="h1 city"> Brugg </h1>
+    <h5 class = currentDate></h5>
+</div>
+
+<div class="col-4">
+<i class="fas fa-cloud-sun-rain first"></i>
+</div>
+
+<div class="col-4 info">
+    
+    <h2> <strong>
+        <span id = unit-changer> 5°C</span>
+
+    </strong></h2>
+    <h5> Felt temperature 4°C | 8°F</h5>
+    <h5> Wind: 22km/h | 43mpH</h5>
+    <h5> Humidity: 62%</h5>
+</div>
+</div>
+<br />
+
+<div class="row">
+
+
+<div class="col-2">
+<div class="card monday" style="">
+    <span>Monday</span>
+    <i class="fas fa-cloud second"></i>
+    <div class="card-body">
+        <p class="card-text">8°C | 22°F</p>
+    </div>
+</div>
+</div>
+
+
+
+<div class="col-2">
+    <div class="card tuesday" style="">
+    <span>Tuesday</span>
+        <i class="fas fa-cloud-rain third"></i>
+        <div class="card-body">
+            <p class="card-text">8°C | 22°F</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-2">
+    <div class="card wednesday" style="">
+        <span>Wednesday</span>
+        <i class="fas fa-sun fourth"></i>
+        <div class="card-body">
+            <p class="card-text">8°C | 22°F</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-2">
+    <div class="card thursday" style="">
+        <span>Thursday</span>
+        <i class="fas fa-smog fifth"></i>
+        <div class="card-body">
+            <p class="card-text">8°C | 22°F</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-2">
+    <div class="card friday" style="">
+        <span>Friday</span>
+        <i class="fas fa-cloud sixth"></i>
+        <div class="card-body">
+            <p class="card-text">8°C | 22°F</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-2">
+    <div class="card saturday " style="">
+    <span>Saturday</span>
+    <i class="fas fa-cloud-sun seventh"></i>
+        <div class="card-body">
+            <p class="card-text">8°C | 22°F</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+</html>
